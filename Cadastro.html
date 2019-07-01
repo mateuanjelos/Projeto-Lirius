@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Cadastro</title>
+	<link rel ="stylesheet" type = "text/css" href="estilo.css"/>
+</head>
+<body>
+	<div id = "interface">
+		<h1>Cadastro</h1>
+		<br>
+		<form id="idCadastro">
+
+			<h2>Nome</h2>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="text" name="Nome" id="idNome" size="30" maxlength="50" placeholder="Nome Completo"/>
+			<br>
+			<h2>Email</h2>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="text" name="Email" id="idEmail" size="30" maxlength="40"/>
+			<br>
+			<h2>Curso</h2>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<select name="Curso" id="idCurso">
+				<option>Eletrônica</option>
+				<option>Eletrotécnia</option>
+				<option>Informática</option>
+				<option>Mecânica</option>
+			</select>
+			<br>
+			<h2>Ano</h2>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<select name="Ano" id="idAno">
+				<option>1º</option>
+				<option>2º</option>
+				<option>3º</option>
+				<option>4º</option>
+			</select>
+			<br> <br>
+			<h2>Senha</h2>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="password" name="Senha" id="idSenha" size="30" maxlenght="40"/>
+			<br>
+			<h2>Confirmar Senha</h2>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="password" name="confirmarSenha" id="idConfirmarSenha" size="30" maxlenght="40"/>
+			<br><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="checkbox" name="Termos" id="idTermos"/>Eu li e aceito os <u>termos de condições da Vox</u>
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="checkbox" name="Notificações" id="idNotificações" checked/>Receber notificações sobre atualizações do Lirius
+			<br><br><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="submit" name="efetuarCadastro" value="Cadastrar"/>
+		</form>
+	</div>
+</body>
+</html> 
